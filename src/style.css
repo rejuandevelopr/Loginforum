@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(14, 129, 137);
+}
+
+.main{
+  width: 65% !important;
+  height: 500px !important;
+  margin: 120px auto !important;
+  border: 2px solid transparent;
+  border-radius: 15px;
+}
+
+
+.borderl{
+  border-radius: 15px !important;
+}
+
+
+
+
+form{
+  width: 75% !important;
+  margin: 0 auto !important;
+  padding: 40px 10px;
+}
+
+
+.input_section{
+  background-color: rgb(23, 43, 43);
+  color: white !important;
+}
+.logo_section{
+  background-color: white;
+}
+
+.form-control:focus{
+  box-shadow: 0 0 0 0.25rem rgba(0, 225, 255, 0.25);
+  border-color: rgba(0, 225, 255, 0.25);
+}
+.btn{
+  background-color: cadetblue !important;
+  border-color: cadetblue;
+}
+.btn:hover{
+  background-color: rgb(39, 80, 81) !important;
+  border-color: rgb(39, 80, 81) !important;
+}
